@@ -38,6 +38,16 @@ namespace HW15
             return _notes;
         }
 
+        string IChargeable.GetInfo()
+        {
+            return "Battery: 94%";
+        }
+
+        string IFlyingRobot.GetInfo()
+        {
+            return "Total flight time: 48Hr10Min\t Total distance: 1 557 160m\t Total flight: 248";
+        }
+
         //public string GetRobotType()
         //{
         //    return "I am a flying robot.";

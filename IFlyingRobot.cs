@@ -8,6 +8,7 @@ namespace HW15
 {
     interface IFlyingRobot:IRobot
     {
+        string GetInfo();
         string GetRobotType()
         {
             return "I am a flying robot.";
